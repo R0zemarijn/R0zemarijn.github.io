@@ -6,18 +6,105 @@
     <meta charset="utf-8">
 </head>
 <body>
-    Uitleg over het binaire stelsel
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <br>
-    <ul class="submenu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="binairstelsel.html">Binair stelsel</a</li>
-        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>    
-    </ul>
- 
+body {
+  margin: 0;
+}
 
-    <img scr="Skyline_Rome.jpeg" alt="De skyline van Rome">
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
 
-    
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Binairstelsel</h1>
+  <p>Pagina over het binaire stelsel</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">index</a>
+  <a href="binairstelsel.html">binairstelsel</a>
+  <a href="kleurmodellen.html">kleurmodellen</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Tekst hier ...</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Tekst hier...</p>
+
+  </div>
+  
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Tekst hier...</p>
+  </div>
+</div>
+  
 </body>
 </html>
