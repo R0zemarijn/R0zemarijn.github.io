@@ -13,20 +13,20 @@ body {
   margin: 0;
 }
 
-/* Style the header */
+/* Style de header */
 .header {
   background-color: #f1cfc3;
   padding: 20px;
   text-align: center;
 }
 
-/* Style the top navigation bar */
+/* Style de bovenste navigatiebalk */
 .topnav {
   overflow: hidden;
   background-color: #A0B9E0;
 }
 
-/* Style the topnav links */
+/* Style de topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -36,36 +36,36 @@ body {
   text-decoration: none;
 }
 
-/* Change color on hover */
+/* Verander de kleur bij het zweven */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Create three unequal columns that floats next to each other */
+/* Maak drie ongelijke kolommen die naast elkaar zweven */
 .column {
   float: left;
   padding: 10px;
 }
 
-/* Left and right column */
+/* Kolom links en rechts */
 .column.side {
   width: 25%;
 }
 
-/* Middle column */
+/* Middelste kolom */
 .column.middle {
   width: 50%;
 }
 
-/* Clear floats after the columns */
+/* Duidelijke drijvers na de kolommen */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*  Responsieve lay-out - zorgt ervoor dat de drie kolommen op elkaar worden gestapeld in plaats van naast elkaar*/
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
@@ -86,23 +86,6 @@ body {
   <a href="kleurmodellen.html">kleurmodellen</a>
 </div>
 
-<div class="row">
-  <div class="column side">
-    <h2>Side</h2>
-    <p>Tekst hier ...</p>
-  </div>
-  
-  <div class="column middle">
-    <h2>Main Content</h2>
-    <p>Tekst hier...</p>
 
-  </div>
-  
-  <div class="column side">
-    <h2>Side</h2>
-    <p>Tekst hier...</p>
-  </div>
-</div>
-  
 </body>
 </html>
