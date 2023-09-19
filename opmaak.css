@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Website Layout</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box;}
+
 
 body {
   margin: 0;
@@ -71,21 +64,3 @@ body {
     width: 100%;
   }
 }
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>Header</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
-
-<div class="topnav">
-  <a href="index.html">index</a>
-  <a href="binairstelsel.html">binairstelsel</a>
-  <a href="kleurmodellen.html">kleurmodellen</a>
-</div>
-
-
-</body>
-</html>
