@@ -13,8 +13,8 @@
 <div class="header">
   <h1>Binairstelsel</h1>
   <p>Het binair stelsel, ook bekend als het binaire stelsel, is de basis van alle moderne computer- en digitale technologie.
-    <br>Het is een wiskundig systeem dat slechts twee cijfers gebruikt: 0 en 1. Dit stelsel vormt de fundamentele taal waarin computers gegevens verwerken en opslaan.<br>
-     Deze pagina zal uitleggen hoe het binair stelsel werkt en waarom het zo cruciaal is in de wereld van computers.
+    <br>Het is een wiskundig systeem dat maar twee cijfers gebruikt: 0 en 1. Dit stelsel vormt de fundamentele taal waarin computers gegevens verwerken en opslaan.<br>
+     Deze pagina zal uitleggen hoe het binair stelsel werkt en waarom het zo belangrijk is in de wereld van computers.
   </p>
 </div>
 
@@ -28,8 +28,36 @@
 
 <div class="row">
   <div class="column side">
-    <h2>Side</h2>
-    <p>Tekst hier ...</p>
+    <h2>Omrekenen in het binair stelsel</h2>
+    <p>Het omrekenen van getallen van het binaire stelsel naar ons vertrouwde decimale stelsel (met getallen van 0 tot 9) en omgekeerd, lijkt misschien ingewikkeld, maar het is eigenlijk vrij eenvoudig. 
+      <br>Hier volgt een eenvoudige uitleg over hoe je dit kunt doen:<br>
+    </p>
+
+    <h3>Van binair naar decimaal</h3>
+    <p>Stap 1: Begin met het binaire getal dat je wilt omrekenen, bijvoorbeeld, 1011.
+      <br>Stap 2: Start vanaf rechts en ga naar links, waarbij je elk cijfer van het binaire getal neemt en vermenigvuldigt met 2 tot de macht van zijn positie. De positie begint bij 0 voor het meest rechtse cijfer en wordt met 1 verhoogd naarmate je naar links gaat.<br>
+      Stap 3: Tel de resultaten op. In ons voorbeeld:
+      <ul>
+        <li>Het meest rechtse cijfer is 1, en zijn positie is 0. Dus: 1 * 2^0 = 1 * 1 = 1.</li>
+        <li>Het volgende cijfer is 1, en zijn positie is 1. Dus: 1 * 2^1 = 1 * 2 = 2.</li>
+        <li>Het daaropvolgende cijfer is 0, en zijn positie is 2. Dus: 0 * 2^2 = 0 * 4 = 0.</li>
+        <li>Het meest linkse cijfer is 1, en zijn positie is 3. Dus: 1 * 2^3 = 1 * 8 = 8.</li>
+      </ul>
+      Stap 4: Tel de resultaten op: 1 + 2 + 0 + 8 = 11.
+      Dus, het binaire getal 1011 is gelijk aan het decimale getal 11.
+    </p>
+
+    <h2>Van decimaal naar binair</h2>
+    <p>Stap 1: Begin met het decimale getal dat je wilt omrekenen, bijvoorbeeld, 19.
+      <br>Stap 2: Zoek het grootste macht van 2 dat kleiner is dan of gelijk aan het decimale getal. In dit geval is dat 16 (2^4).<br>
+      Stap 3: Plaats een 1 in het binaire getal op de positie van deze macht van 2. Dus, je zet een 1 in het 2^4-positie, dat is het vijfde cijfer van rechts.
+      <br>Stap 4: Trek dit getal af van het oorspronkelijke decimale getal (19 - 16 = 3) en herhaal het proces voor het resterende getal.<br>
+      Stap 5: Ga door met stappen 2-4 totdat je het oorspronkelijke decimale getal hebt omgezet in binair.
+      <br>In ons voorbeeld, 19 is in binaire notatie 10011.<br>
+      </p>
+
+    <h2>Meer oefenen?</h2>
+    <iframe src="https://games.penjee.com/binary-bonanza/game.php" width="700" height="500" frameborder="no" scrolling="no" ></iframe>
   </div>
   
   <div class="column middle">
@@ -56,12 +84,35 @@
     <h2>Hoe verwerken computers deze gegevens?</h2>
     <p>Computers gebruiken deze 0's en 1's om allerlei soorten informatie te coderen. Als je een tekst typt, wordt dit omgezet in binaire code. Afbeeldingen, geluiden, video's, alles wordt uiteindelijk opgeslagen als reeksen van 0's en 1's.
     </p>
-
   </div>
   
   <div class="column side">
-    <h2>Side</h2>
-    <p>Tekst hier...</p>
+    <h2>Toepassingen van het binaire stelsel</h2>
+
+    <h3>1. Computers en telefoons</h3>
+    <p>Wanneer je op je computer typt, een video op je telefoon bekijkt of een game speelt, gebruikt de computer binnenin binaire code.
+       <br>Het binaire stelsel helpt de computer om te begrijpen welke tekens je typt, welke kleuren er op het scherm moeten verschijnen en welke geluiden je hoort.<br>
+    </p>
+
+    <h3>2. Muziek en geluid</h3>
+    <p>Wanneer je naar muziek luistert via een streamingdienst of een mp3-bestand afspeelt, gebruikt de computer binaire code om de geluidsgolven te beschrijven. Zo hoor je de muziek en de stemmen van artiesten.
+    </p>
+
+    <h3>3. Digitale foto's</h3>
+    <p>Als je foto's met je smartphone maakt, worden de kleuren en de details van die foto's omgezet in binaire code. Elk puntje in een foto (een pixel) krijgt een binaire waarde toegewezen om te bepalen welke kleur het moet hebben.
+    </p>
+
+    <h3>4. Internet</h3>
+    <p>Als je op het internet surft, verzenden en ontvangen computers informatie in de vorm van binaire code. Dit betekent dat alles, van e-mails tot webpagina's, wordt omgezet in en weer uitgepakt uit binaire code wanneer het via het internet reist.
+    </p>
+
+    <h3>5. Video games</h3>
+    <p>Wanneer je videogames speelt, maken de bewegingen van je personage en de kleurrijke graphics gebruik van het binaire stelsel. Het helpt de computer om alle acties en beelden in het spel te begrijpen en weer te geven.
+    </p>
+
+    <h3>6. GPS en navigatie</h3>
+    <p>Wanneer je GPS gebruikt om de weg te vinden, gebeurt dat met behulp van binaire code. Satellieten sturen binaire signalen naar je GPS-apparaat, dat deze vertaalt in kaarten en routebeschrijvingen.
+    </p>
   </div>
 </div>
   
