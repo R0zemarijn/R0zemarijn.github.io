@@ -8,7 +8,6 @@
 .dropdown:hover .inhoud {display: block;} /*de vorm van de onderwerpen die je uitklapt onder 3 laagen model*/
   
   .dropdown:hover .dropbtn {background-color: #3f3579;} /*als je met je muis over de onderwerpen onder 3 lagen model gaaat word het een andere kleur*/
-
 }
 
 .dropdown {
@@ -147,4 +146,15 @@ body {
 /* Stijl voor het weergeven van het dropdown-menu wanneer de dropdown zelf wordt gehoverd */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+footer {
+  background-color: #333; /* Achtergrondkleur van de footer */
+  color: #fff; /* Tekstkleur in de footer */
+  text-align: center;
+  padding: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
