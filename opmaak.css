@@ -153,6 +153,9 @@ footer {
   color: #fff; /* Tekstkleur in de footer */
   text-align: center;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a:hover {
