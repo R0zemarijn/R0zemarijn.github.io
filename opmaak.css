@@ -149,8 +149,8 @@ body {
 }
 
 footer {
-  background-color: #333; /* Achtergrondkleur van de footer */
-  color: #fff; /* Tekstkleur in de footer */
+  background-color: #f2c0c1; /* Achtergrondkleur van de footer */
+  color: #000; /* Tekstkleur in de footer */
   text-align: center;
   padding: 10px;
   position: absolute;
