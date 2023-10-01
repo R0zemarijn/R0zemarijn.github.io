@@ -5,9 +5,9 @@
   font-size: 16px;
   border: none;
 }
-.dropdown:hover .inhoud {display: block;} /*de vorm van de onderwerpen die je uitklapt onder 3 laagen model*/
+.dropdown:hover .inhoud {display: block;} /*de vorm van de onderwerpen die je uitklapt onder binair stelsel*/
   
-  .dropdown:hover .dropbtn {background-color: #3f3579;} /*als je met je muis over de onderwerpen onder 3 lagen model gaaat word het een andere kleur*/
+  .dropdown:hover .dropbtn {background-color: #3f3579;} /*als je met je muis over de onderwerpen onder het binair stelsel gaaat word het een andere kleur*/
 }
 
 .dropdown {
@@ -98,7 +98,7 @@ body {
   }
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #f1f1f1;} /*Veranderd de kleur als je met de muis erover beweegd*/
 
 .dropdown:hover .dropdown-content {display: block;}
 
